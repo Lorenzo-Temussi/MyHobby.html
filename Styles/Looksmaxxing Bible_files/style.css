@@ -1,0 +1,210 @@
+
+
+.caposchermo {
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+
+    font-size: 12em;
+    color: transparent;
+    text-align: center;
+
+    background-image: url('guys2.png');
+    background-clip: text;
+    background-position-y: 2.55em;
+
+    margin: 0em;
+    
+}
+
+.sottotitolo {
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 4em;
+    color: red;
+    text-align: center;
+
+    margin-top: 0em;
+}
+
+
+
+body {
+    background-color: #1f1b1e;
+    padding: 2em;
+}
+
+div {
+    border: none; 
+}
+
+.col {
+    width: 20%;
+    border: 10px double goldenrod;
+    color: whitesmoke;
+    padding: 50px;
+    background-color: #1f1b1e;
+    background-blend-mode: darken;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    .titles {
+        height: 3em;
+        color: goldenrod;
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+
+        font-size: 3em;
+        text-align: center;
+        margin: 0px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    li {
+        margin: 20px;
+        
+    }
+
+    a {
+        color: goldenrod;
+        }
+        
+    a:hover {
+            color:blanchedalmond;
+    }
+    
+    span {
+        color:aquamarine;
+        font-weight: 600;
+    }
+}
+
+#col_sx{
+    background-image: url(chad-sx.jpg);
+    background-position: top left;
+
+}
+
+#col_dx{
+    background-image: url(chad-sx\ \(copy\).jpg);
+    background-position: top right;
+    
+    button {
+        border: none;
+        padding: none;
+        margin: none;
+        margin-top: 2em;
+        width: 100%;
+        background: transparent;
+        
+    }
+    img {
+        width:50%;
+        
+    }
+}
+
+#col_middle {
+    display: flex;
+    width: 40%;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('mr_bean.jpg');
+    background-size: cover;
+
+    
+
+    button {
+        background-color: transparent;
+        border: none;
+        color: antiquewhite;
+        
+
+        font-family: "Notable", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        p {
+            font-size: 3em;
+            color: antiquewhite;
+            margin: 5px;
+            text-shadow: 6px 6px black;
+        }
+
+    }
+}
+
+#col_middle:hover {
+    background-image: url('mog.jpg');
+}
+
+
+.hor_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+/* PAgina di LOGIN */
+
+table {
+    color: goldenrod;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    th, tr {
+        border: 1px solid brown;
+    }
+}
+
+#logino {
+    justify-content: center;
+}
+
+form {
+    
+    border: 10px double goldenrod;
+    color: whitesmoke;
+    padding: 50px;
+
+    label{
+        color: wheat;
+    }
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    input {
+        border-radius: 2em;
+        border: none;
+    }
+
+    span {
+        color: red;
+        size: 1.5em;
+        font-weight: 600;
+    }
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin: 5px;
+}
+
